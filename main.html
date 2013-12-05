@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="keywords" content="Vignesh WebSpeech" />
+<meta name="description" content="Example using WebSpeech APIa" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+<title>Speech Recognition using WebSpeech API</title>
+
+<style>
+#startButton {
+  width: 14em;
+}
+#result {
+  max-height: 15em;
+  overflow-y: auto;
+}
+#result{
+  border: solid;
+  width: 300px;
+  height: 300px;
+  font: 12px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+	
+  <h1>Small Demo using <a href="http://dvcs.w3.org/hg/speech-api/raw-file/tip/speechapi.html">Web Speech API</a></h1>
+
+<!--   <div id="contentArea">
+    <div id="info">
+      
+      <p>Click on the mic and start speaking</p>
+      <p id="info_allow">Click the "Allow" button above to enable your microphone.</p>
+      <p id="info_denied">Permission to use microphone was denied.</p>
+      <p id="info_blocked">Permission to use microphone is blocked. To change,
+        go to chrome://settings/contentExceptions#media-stream</p>
+      <p id="info_upgrade">Web Speech API is not supported by this browse<p id="info_speak_now">Speak now.</p>
+      <p id="info_no_speech">No speech was detected. You may need to adjust your
+      <a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">
+         microphone settings</a>.</p>
+      <p id="info_no_microphone" style="display:none">
+         No microphone was found. Ensure that a microphone is installed and that
+      <a href="//support.google.com/chrome/bin/answer.py?hl=en&amp;answer=1407892">
+        microphone settings</a> are configured correctly.</p>r.
+        Upgrade to <a href="//www.google.com/chrome">Chrome</a>
+        version 25 or later.</p>
+    </div>
+    <div id="renderArea">
+      
+
+    </div>
+
+  </div>
+ -->  <p>Click the below button and start speaking></p>
+  <button id="startBtn">Start</button>
+
+  <div id="result"></div>
+
+  <script src="js/speech.js"></script>
+
+<!-- <a href="https://github.com/samdutton/simpl/blob/master/stt/index.html" title="View source for this page on github" id="viewSource">View source on github</a> -->
+</div>
+
+</body>
+</html>
